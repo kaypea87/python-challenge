@@ -22,8 +22,6 @@ print(f"Total Months : {monthcount}")
 #The net total amount of "Profit/Losses" over the entire period
 totalprofit = 0
 for i in range(monthcount):
-    #print(i)
-    #print(budget_df["Profit/Losses"][i])
     totalprofit = totalprofit + budget_df["Profit/Losses"][i]
 
 
